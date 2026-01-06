@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+    <h2>Student Dashboard</h2>
+
+    <div class="card">
+        <h3>Report Lost Item / Complaint</h3>
+
+        <form>
+            <input type="text" placeholder="Title" required>
+            <textarea placeholder="Description"></textarea>
+            <input type="text" placeholder="Location">
+            <input type="date">
+            <input type="file">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <h3>Track Status</h3>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Lost ID Card</td>
+                <td class="pending">Pending</td>
+            </tr>
+            <tr>
+                <td>Water Issue</td>
+                <td class="resolved">Resolved</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
